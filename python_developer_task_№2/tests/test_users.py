@@ -5,7 +5,7 @@ import pytest
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 
-from fixed_code import metadata, users, heart_rates, query_users, query_for_user
+from refactored_code import metadata, users, heart_rates, query_users, query_for_user
 
 # Настройка тестовой базы данных
 DATABASE_URL = 'postgresql://username:password@localhost:5432/test_database_name'
